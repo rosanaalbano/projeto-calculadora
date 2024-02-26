@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#c2deaf;
+    height: 100vh;
+    text-align: center;
+    color: #2b1502;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    position: absolute;
+    background-color: palevioletred;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(233, 157, 233);
+    color:#2b1502;
+}
+button:hover{
+    background:pink; 
+}
+.tela{
+    background-color: #fff;
+    height: 30px;
+    color:#000;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
+}
